@@ -1,0 +1,19 @@
+Tabla "usuarios":
+ID User			Password	Direccion de Mail	Nombre		Apellido	Rol
+8881644958452399037	ASD123		hellfest@mail.com	Ronnie James	Dio Padavona	Proveedor
+6388789728933810	QWE123		jwick@argentina.gov.ar	John		Wick		Comprador
+1223334444555556666	ASD123		fcc092@gmail.com	Fernando	Castro		Personal
+
+Tabla "tickets":
+ID Ticket	Tipo de Ticket		Cantidad de Tickets	Monto total en USD	Nombre		Apellido	Direccion de Mail	Metodo de pago	Pases Totales
+RDNT397018729	3-day pass		5			1075			Fernando	Castro		fcc092@gmail.com	TARJETA		15
+TEFO064822322	1-day pass		9			945			Fernando	Castro		fcc092@gmail.com	EFECTIVO	9
+PQWW905810928	4-day pass		7			2023			Ronnie James	Dio Padavona	hellfest@mail.com	TARJETA		28
+YEYV002906393	3-day pass		1			215			Ronnie James	Dio Padavona	hellfest@mail.com	TARJETA		3
+
+Tabla "tienda":
+ID Compra	Producto		Talle	Cantidad	Monto 	Nombre		Apellido	Direccion de Mail	Metodo de pago	Lugar de Retiro		Estado
+5555		Remera Adulto Hombre	XL	1		NULL	Fernando	Castro		fcc092@gmail.com	TARJETA		En punto de retiro 3	Pendiente
+4444		Billetera		NULL	2		NULL	Fernando	Castro		fcc092@gmail.com	EFECTIVO	En el festival		Listo para retirar
+7777		Zippo Hellfest		NULL	1		NULL	Ronnie James	Dio Padavona	hellfest@mail.com	EFECTIVO	En el festival		Pendiente
+202		Musculosa		S	3		NULL	Janel		Handrik		jhandrikn@geocities.com	EFECTIVO	En el festival		Listo para retirar
