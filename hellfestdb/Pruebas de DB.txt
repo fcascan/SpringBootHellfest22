@@ -2,18 +2,18 @@ Tabla "usuarios":
 ID User			Password	Direccion de Mail	Nombre		Apellido	Rol
 8881644958452399037	ASD123		hellfest@mail.com	Ronnie James	Dio Padavona	Proveedor
 6388789728933810	QWE123		jwick@argentina.gov.ar	John		Wick		Comprador
-1223334444555556666	ASD123		fcc092@gmail.com	Fernando	Castro		Personal
+1223334444555556666	ASD123		test@test.com		Testman		Tester		Personal
 
 Tabla "tickets":
-ID Ticket	Tipo de Ticket		Cantidad de Tickets	Monto total en USD	Nombre		Apellido	Direccion de Mail	Metodo de pago	Pases Totales
-RDNT397018729	3-day pass		5			1075			Fernando	Castro		fcc092@gmail.com	TARJETA		15
-TEFO064822322	1-day pass		9			945			Fernando	Castro		fcc092@gmail.com	EFECTIVO	9
-PQWW905810928	4-day pass		7			2023			Ronnie James	Dio Padavona	hellfest@mail.com	TARJETA		28
-YEYV002906393	3-day pass		1			215			Ronnie James	Dio Padavona	hellfest@mail.com	TARJETA		3
+ID Ticket	Tipo de Ticket		Cantidad de Tickets	Monto total en USD	Nombre		Apellido	Direccion de Mail	Telefono		Metodo de pago	Pases Totales
+TAYO180645092	3-day pass		8			1075			Fernando	Castro		fcascan@frba.edu	+1 (1555) 321-5566	EFECTIVO	15
+LWJI916387441	1-day pass		9			945			Fernando	Castro		fccasdasd@arg.gov	+44 (112) 1234-9988	EFECTIVO	9
+KRTC102378524	4-day pass		7			2023			Ronnie James	Dio Padavona	hellfest@mail.com	+54 (011) 123-6677	TARJETA		28
+LDTG575422476	3-day pass		1			215			Ronnie James	Dio Padavona	hellfest@mail.com	+16 (02266) 777-666111	TARJETA		3
 
 Tabla "tienda":
 ID Compra	Producto		Talle	Cantidad	Monto 	Nombre		Apellido	Direccion de Mail	Metodo de pago	Lugar de Retiro		Estado
-5555		Remera Adulto Hombre	XL	1		NULL	Fernando	Castro		fcc092@gmail.com	TARJETA		En punto de retiro 3	Pendiente
-4444		Billetera		NULL	2		NULL	Fernando	Castro		fcc092@gmail.com	EFECTIVO	En el festival		Listo para retirar
-7777		Zippo Hellfest		NULL	1		NULL	Ronnie James	Dio Padavona	hellfest@mail.com	EFECTIVO	En el festival		Pendiente
+5555		Remera Adulto Hombre	XL	1		NULL	Fernando	Castro		fcc@gmail.com		TARJETA		En punto de retiro 3	Pendiente
+4444		Billetera		NULL	2		NULL	Fernando	Castro		facc@argentina.gov.ar	EFECTIVO	En el festival		Listo para retirar
+7777		Zippo Hellfest		NULL	1		NULL	Ronnie James	Dio Padavona	hellfest@mail.com	TARJETA		En punto de retiro 2	Pendiente
 202		Musculosa		S	3		NULL	Janel		Handrik		jhandrikn@geocities.com	EFECTIVO	En el festival		Listo para retirar

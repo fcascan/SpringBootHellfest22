@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 31-07-2022 a las 22:30:42
+-- Tiempo de generación: 16-08-2022 a las 04:00:32
 -- Versión del servidor: 10.4.24-MariaDB
 -- Versión de PHP: 8.1.6
 
@@ -4298,7 +4298,6 @@ INSERT INTO `tickets` (`id_compra`, `tipo_de_ticket`, `cantidad_de_tickets`, `mo
 ('GFWY198332308', '4-day pass', 6, 1734, 'Maribeth', 'Belleny', '+63 (401) 124-4598', 'mbellenyag@google.nl', 'TARJETA', 24),
 ('GFZJ035962517', '4-day pass', 6, 1734, 'Cristie', 'Tchaikovsky', '+380 (507) 777-7924', 'ctchaikovskykm@amazon.co.jp', 'TARJETA', 24),
 ('GFZJ501935106', '4-day pass', 7, 2023, 'Deeann', 'Bande', '+57 (258) 574-4117', 'dbande5d@fda.gov', 'TARJETA', 28),
-('GHBF627199731', '4-day pass', 5, 1445, 'Fernando', 'Castro', '67813789123', 'fcc@zzz.com', 'EFECTIVO', 20),
 ('GHBM595359659', '1-day pass', 3, 315, 'Maryrose', 'Wycherley', '+967 (442) 184-5211', 'soliverqi@about.me', 'EFECTIVO', 3),
 ('GHCA458071381', '1-day pass', 8, 840, 'Roth', 'Sargison', '+351 (941) 169-3942', 'rsargison33@cisco.com', 'TARJETA', 8),
 ('GHDI561845312', '4-day pass', 10, 2890, 'Eli', 'Elkington', '+63 (493) 735-8380', 'eelkingtonl7@angelfire.com', 'EFECTIVO', 40),
@@ -4661,9 +4660,9 @@ INSERT INTO `tickets` (`id_compra`, `tipo_de_ticket`, `cantidad_de_tickets`, `mo
 ('GWFT049209580', '4-day pass', 10, 2890, 'Flory', 'Shottin', '+86 (365) 587-0058', 'fshottinla@dion.ne.jp', 'TARJETA', 40),
 ('GWIP612253929', '4-day pass', 8, 2312, 'Jeralee', 'Wethey', '+57 (312) 244-3462', 'jwetheya9@china.com.cn', 'TARJETA', 32),
 ('GWJF623767770', '4-day pass', 9, 2601, 'Haydon', 'Cotillard', '+1 (212) 105-9272', 'hcotillardl3@people.com.cn', 'EFECTIVO', 36),
-('GWJR800621281', '4-day pass', 2, 578, 'Cosmo', 'Winborn', '+66 (502) 996-7294', 'cwinbornp8@state.tx.us', 'TARJETA', 8);
+('GWJR800621281', '4-day pass', 2, 578, 'Cosmo', 'Winborn', '+66 (502) 996-7294', 'cwinbornp8@state.tx.us', 'TARJETA', 8),
+('GWKS025545839', '1-day pass', 7, 735, 'Reggi', 'Sandeman', '+48 (388) 827-8390', 'rsandemanjj@alexa.com', 'TARJETA', 7);
 INSERT INTO `tickets` (`id_compra`, `tipo_de_ticket`, `cantidad_de_tickets`, `monto_total_en_usd`, `nombre`, `apellido`, `telefono`, `direccion_de_mail`, `metodo_de_pago`, `pases_totales`) VALUES
-('GWKS025545839', '1-day pass', 7, 735, 'Reggi', 'Sandeman', '+48 (388) 827-8390', 'rsandemanjj@alexa.com', 'TARJETA', 7),
 ('GWMY621669544', '1-day pass', 4, 420, 'Vinnie', 'Dincey', '+33 (241) 379-0139', 'vdincey5x@independent.co.uk', 'TARJETA', 4),
 ('GWNM013119219', '1-day pass', 1, 105, 'Barbey', 'Greatham', '+82 (100) 859-2613', 'bgreatham5m@google.co.jp', 'TARJETA', 1),
 ('GWRU985181259', '4-day pass', 1, 289, 'Diane-marie', 'Stammler', '+63 (599) 476-8457', 'dstammlerj1@hubpages.com', 'TARJETA', 4),
@@ -5065,9 +5064,9 @@ INSERT INTO `tickets` (`id_compra`, `tipo_de_ticket`, `cantidad_de_tickets`, `mo
 ('HPWJ971568649', '1-day pass', 4, 420, 'Chet', 'Lindup', '+86 (949) 341-7116', 'jtitchenerai@list-manage.com', 'TARJETA', 4),
 ('HPWK278572396', '4-day pass', 2, 578, 'Jacqui', 'Le Noire', '+55 (214) 796-2364', 'jlenoirek@zimbio.com', 'TARJETA', 8),
 ('HPXL113936103', '1-day pass', 8, 840, 'Fredric', 'O\'Dunniom', '+46 (274) 390-8307', 'fodunniomfq@rambler.ru', 'EFECTIVO', 8),
-('HQAN741671017', '1-day pass', 5, 525, 'Harmonia', 'Stanistreet', '+55 (284) 391-1404', 'sgianullilg@pinterest.com', 'TARJETA', 5);
+('HQAN741671017', '1-day pass', 5, 525, 'Harmonia', 'Stanistreet', '+55 (284) 391-1404', 'sgianullilg@pinterest.com', 'TARJETA', 5),
+('HQBT257217004', '1-day pass', 8, 840, 'Elianore', 'Quarry', '+20 (436) 700-1290', 'equarryn6@csmonitor.com', 'EFECTIVO', 8);
 INSERT INTO `tickets` (`id_compra`, `tipo_de_ticket`, `cantidad_de_tickets`, `monto_total_en_usd`, `nombre`, `apellido`, `telefono`, `direccion_de_mail`, `metodo_de_pago`, `pases_totales`) VALUES
-('HQBT257217004', '1-day pass', 8, 840, 'Elianore', 'Quarry', '+20 (436) 700-1290', 'equarryn6@csmonitor.com', 'EFECTIVO', 8),
 ('HQDV752668287', '1-day pass', 9, 945, 'Carie', 'Cisson', '+86 (794) 202-5407', 'ccisson28@ucla.edu', 'EFECTIVO', 9),
 ('HQDY855455704', '4-day pass', 8, 2312, 'Joella', 'Garrold', '+34 (476) 700-5074', 'mmcgrayleg6@imdb.com', 'EFECTIVO', 32),
 ('HQGW513626283', '1-day pass', 8, 840, 'Milt', 'Parncutt', '+86 (177) 351-6915', 'kpippinop@dropbox.com', 'EFECTIVO', 8),
@@ -5469,9 +5468,9 @@ INSERT INTO `tickets` (`id_compra`, `tipo_de_ticket`, `cantidad_de_tickets`, `mo
 ('IHZR307054349', '4-day pass', 3, 867, 'Adora', 'McBratney', '+48 (296) 513-1720', 'amcbratneygg@pen.io', 'EFECTIVO', 12),
 ('IJAU360556032', '1-day pass', 4, 420, 'Andeee', 'Erlam', '+267 (834) 293-2544', 'aerlamiq@sakura.ne.jp', 'TARJETA', 4),
 ('IJBG749679280', '1-day pass', 10, 1050, 'Coreen', 'Godfroy', '+86 (576) 557-1646', 'cgodfroym7@noaa.gov', 'EFECTIVO', 10),
-('IJCY545591728', '1-day pass', 5, 525, 'Berny', 'Leney', '+54 (359) 159-0165', 'bleney4c@si.edu', 'TARJETA', 5);
+('IJCY545591728', '1-day pass', 5, 525, 'Berny', 'Leney', '+54 (359) 159-0165', 'bleney4c@si.edu', 'TARJETA', 5),
+('IJED030254342', '1-day pass', 2, 210, 'Willyt', 'Holwell', '+98 (620) 144-1335', 'wholwelldu@webs.com', 'EFECTIVO', 2);
 INSERT INTO `tickets` (`id_compra`, `tipo_de_ticket`, `cantidad_de_tickets`, `monto_total_en_usd`, `nombre`, `apellido`, `telefono`, `direccion_de_mail`, `metodo_de_pago`, `pases_totales`) VALUES
-('IJED030254342', '1-day pass', 2, 210, 'Willyt', 'Holwell', '+98 (620) 144-1335', 'wholwelldu@webs.com', 'EFECTIVO', 2),
 ('IJGB163960985', '1-day pass', 6, 630, 'Norrie', 'Venney', '+355 (968) 264-3106', 'sgludor5v@dagondesign.com', 'EFECTIVO', 6),
 ('IJGT184854573', '1-day pass', 10, 1050, 'Sheff', 'Fentem', '+81 (757) 178-7369', 'oambersonnq@com.com', 'EFECTIVO', 10),
 ('IJGV081184939', '1-day pass', 5, 525, 'Axel', 'Gislebert', '+86 (290) 854-0463', 'agislebert8r@wikipedia.org', 'EFECTIVO', 5),
@@ -5872,9 +5871,9 @@ INSERT INTO `tickets` (`id_compra`, `tipo_de_ticket`, `cantidad_de_tickets`, `mo
 ('JBAN515995417', '4-day pass', 8, 2312, 'Huey', 'Comelini', '+86 (526) 408-1403', 'hcomeliniei@ed.gov', 'EFECTIVO', 32),
 ('JBCD444038652', '4-day pass', 9, 2601, 'Luke', 'Hegdonne', '+51 (512) 629-7053', 'breason80@example.com', 'EFECTIVO', 36),
 ('JBDX107000266', '4-day pass', 5, 1445, 'Ketti', 'Bassick', '+64 (378) 515-0519', 'kbassick3p@reddit.com', 'TARJETA', 20),
-('JBED547174933', '4-day pass', 5, 1445, 'Finley', 'Keach', '+86 (406) 200-6374', 'fkeachbt@google.es', 'TARJETA', 20);
+('JBED547174933', '4-day pass', 5, 1445, 'Finley', 'Keach', '+86 (406) 200-6374', 'fkeachbt@google.es', 'TARJETA', 20),
+('JBEH032396805', '4-day pass', 3, 867, 'Tamar', 'Mawd', '+47 (601) 971-4953', 'tmawdrd@networksolutions.com', 'TARJETA', 12);
 INSERT INTO `tickets` (`id_compra`, `tipo_de_ticket`, `cantidad_de_tickets`, `monto_total_en_usd`, `nombre`, `apellido`, `telefono`, `direccion_de_mail`, `metodo_de_pago`, `pases_totales`) VALUES
-('JBEH032396805', '4-day pass', 3, 867, 'Tamar', 'Mawd', '+47 (601) 971-4953', 'tmawdrd@networksolutions.com', 'TARJETA', 12),
 ('JBEQ798554855', '1-day pass', 6, 630, 'Valida', 'Kelling', '+48 (403) 435-9390', 'vkellinge0@ask.com', 'EFECTIVO', 6),
 ('JBGW394327464', '1-day pass', 10, 1050, 'Brose', 'Dubber', '+46 (824) 705-5110', 'fstorrorhr@si.edu', 'TARJETA', 10),
 ('JBID294054151', '1-day pass', 10, 1050, 'Nita', 'Tindley', '+86 (370) 611-7854', 'ntindley6h@abc.net.au', 'TARJETA', 10),
@@ -6277,9 +6276,9 @@ INSERT INTO `tickets` (`id_compra`, `tipo_de_ticket`, `cantidad_de_tickets`, `mo
 ('JTLP816392555', '4-day pass', 4, 1156, 'Conrad', 'Lemon', '+57 (421) 898-4875', 'clemonqf@answers.com', 'TARJETA', 16),
 ('JTLY987755089', '4-day pass', 2, 578, 'Dela', 'Labadini', '+86 (961) 714-6467', 'dlabadinina@goodreads.com', 'TARJETA', 8),
 ('JTMA511251610', '4-day pass', 4, 1156, 'Drusy', 'Byrde', '+86 (263) 172-9489', 'mmcleodhe@typepad.com', 'EFECTIVO', 16),
-('JTMO061333003', '1-day pass', 4, 420, 'Giorgi', 'Trubshaw', '+48 (359) 898-9449', 'gtrubshaw2l@marketwatch.com', 'EFECTIVO', 4);
+('JTMO061333003', '1-day pass', 4, 420, 'Giorgi', 'Trubshaw', '+48 (359) 898-9449', 'gtrubshaw2l@marketwatch.com', 'EFECTIVO', 4),
+('JTMY311202128', '1-day pass', 2, 210, 'Shaine', 'Mattusevich', '+86 (165) 679-0725', 'smattusevich66@sogou.com', 'TARJETA', 2);
 INSERT INTO `tickets` (`id_compra`, `tipo_de_ticket`, `cantidad_de_tickets`, `monto_total_en_usd`, `nombre`, `apellido`, `telefono`, `direccion_de_mail`, `metodo_de_pago`, `pases_totales`) VALUES
-('JTMY311202128', '1-day pass', 2, 210, 'Shaine', 'Mattusevich', '+86 (165) 679-0725', 'smattusevich66@sogou.com', 'TARJETA', 2),
 ('JTOE591825403', '4-day pass', 3, 867, 'Barbara', 'McIllroy', '+62 (859) 326-8651', 'bmcillroy5o@businessweek.com', 'EFECTIVO', 12),
 ('JTON275111728', '1-day pass', 3, 315, 'Marcile', 'Marritt', '+86 (496) 665-4307', 'mmarrittlr@ifeng.com', 'TARJETA', 3),
 ('JTPX980272774', '1-day pass', 7, 735, 'Verne', 'Larway', '+86 (987) 937-1534', 'vlarwayp4@elegantthemes.com', 'EFECTIVO', 7),
@@ -6681,9 +6680,9 @@ INSERT INTO `tickets` (`id_compra`, `tipo_de_ticket`, `cantidad_de_tickets`, `mo
 ('KMBC228221933', '1-day pass', 5, 525, 'Gordon', 'Ellings', '+33 (297) 106-1326', 'gellingsmj@yelp.com', 'TARJETA', 5),
 ('KMBT070206173', '1-day pass', 7, 735, 'Collie', 'Stanlick', '+55 (473) 431-5236', 'cstanlick8h@ucsd.edu', 'TARJETA', 7),
 ('KMEB297612295', '1-day pass', 8, 840, 'Wendi', 'Rolfo', '+380 (307) 518-1939', 'dquantrillb4@japanpost.jp', 'TARJETA', 8),
-('KMEN144827297', '1-day pass', 10, 1050, 'Benjamin', 'Gumbrell', '+356 (470) 443-5551', 'blabeuil9s@nsw.gov.au', 'EFECTIVO', 10);
+('KMEN144827297', '1-day pass', 10, 1050, 'Benjamin', 'Gumbrell', '+356 (470) 443-5551', 'blabeuil9s@nsw.gov.au', 'EFECTIVO', 10),
+('KMFE149981805', '4-day pass', 2, 578, 'Ulla', 'Andrichuk', '+86 (206) 338-1781', 'uandrichukoo@slate.com', 'EFECTIVO', 8);
 INSERT INTO `tickets` (`id_compra`, `tipo_de_ticket`, `cantidad_de_tickets`, `monto_total_en_usd`, `nombre`, `apellido`, `telefono`, `direccion_de_mail`, `metodo_de_pago`, `pases_totales`) VALUES
-('KMFE149981805', '4-day pass', 2, 578, 'Ulla', 'Andrichuk', '+86 (206) 338-1781', 'uandrichukoo@slate.com', 'EFECTIVO', 8),
 ('KMFG694001514', '1-day pass', 3, 315, 'Gonzalo', 'Gillitt', '+1 (916) 995-2359', 'ggillittk3@fda.gov', 'TARJETA', 3),
 ('KMGD923192831', '4-day pass', 10, 2890, 'Alden', 'England', '+48 (753) 866-5454', 'aenglandah@mac.com', 'TARJETA', 40),
 ('KMGS028434823', '4-day pass', 9, 2601, 'Olia', 'Champney', '+46 (352) 717-0837', 'ochampneyy@java.com', 'EFECTIVO', 36),
@@ -6788,7 +6787,7 @@ INSERT INTO `tickets` (`id_compra`, `tipo_de_ticket`, `cantidad_de_tickets`, `mo
 ('KRQW380084531', '1-day pass', 8, 840, 'Sybil', 'Poundesford', '+93 (800) 858-7167', 'spoundesfordqo@bandcamp.com', 'EFECTIVO', 8),
 ('KRSN311592440', '1-day pass', 8, 840, 'Cara', 'Keable', '+1 (365) 291-2237', 'ckeableow@amazonaws.com', 'TARJETA', 8),
 ('KRSZ955224143', '4-day pass', 8, 2312, 'Melinda', 'Soldan', '+1 (798) 152-4999', 'msoldangh@oakley.com', 'EFECTIVO', 32),
-('KRTC102378524', '1-day pass', 3, 315, 'Fernando', 'Castro', '45025577', 'fccasdasd@arg.gov', 'EFECTIVO', 3),
+('KRTC102378524', '4-day pass', 7, 2023, 'Ronnie James', 'Dio Padavona', '+54 (011) 123-6677', 'hellfest@mail.com', 'TARJETA', 28),
 ('KRTX699768257', '1-day pass', 6, 630, 'Nettie', 'Petrello', '+86 (597) 919-9659', 'npetrelloju@ask.com', 'EFECTIVO', 6),
 ('KRWD060155351', '4-day pass', 7, 2023, 'Editha', 'Garrals', '+52 (116) 503-0778', 'egarralscd@fotki.com', 'EFECTIVO', 28),
 ('KRXG486908217', '4-day pass', 5, 1445, 'Helene', 'McCleary', '+86 (122) 178-5571', 'eraithl7@mapquest.com', 'EFECTIVO', 20),
@@ -7068,7 +7067,7 @@ INSERT INTO `tickets` (`id_compra`, `tipo_de_ticket`, `cantidad_de_tickets`, `mo
 ('LDRP840228549', '4-day pass', 5, 1445, 'Russ', 'Rains', '+255 (308) 645-0409', 'bpirniell@upenn.edu', 'EFECTIVO', 20),
 ('LDSH744111156', '1-day pass', 7, 735, 'Issie', 'Lutman', '+62 (429) 365-1473', 'ilutman7a@4shared.com', 'TARJETA', 7),
 ('LDSO620577654', '4-day pass', 8, 2312, 'Lauree', 'Gavozzi', '+86 (961) 200-2943', 'sackrillnv@loc.gov', 'TARJETA', 32),
-('LDTG575422476', '4-day pass', 5, 1445, 'Fernando', 'Castro', '+54 (011) 4412-6530', 'fccasdasd@arg.gov', 'TARJETA', 20),
+('LDTG575422476', '3-day pass', 1, 215, 'Ronnie James', 'Dio Padavona', '+16 (02266) 777-666111', 'hellfest@mail.com', 'TARJETA', 3),
 ('LDTR112738203', '1-day pass', 4, 420, 'Lethia', 'Tulk', '+1 (660) 596-7651', 'wscoltsiy@de.vu', 'EFECTIVO', 4),
 ('LDWJ859596230', '1-day pass', 9, 945, 'Elonore', 'Risdall', '+375 (182) 313-6403', 'erisdall7p@discovery.com', 'TARJETA', 9),
 ('LDXA403907829', '4-day pass', 5, 1445, 'Ollie', 'Wharton', '+93 (196) 335-0023', 'owhartonar@uiuc.edu', 'EFECTIVO', 20),
@@ -7085,9 +7084,9 @@ INSERT INTO `tickets` (`id_compra`, `tipo_de_ticket`, `cantidad_de_tickets`, `mo
 ('LEHV882035094', '1-day pass', 1, 105, 'Kaiser', 'Pearce', '+220 (558) 577-6108', 'kpearceqx@merriam-webster.com', 'TARJETA', 1),
 ('LEJA718696497', '1-day pass', 9, 945, 'Sullivan', 'Casaroli', '+46 (361) 880-1221', 'scasarolif3@princeton.edu', 'EFECTIVO', 9),
 ('LEJH490450430', '1-day pass', 10, 1050, 'Dasie', 'Bushnell', '+357 (782) 737-5152', 'wsoldann6@tiny.cc', 'TARJETA', 10),
-('LEKH152164738', '4-day pass', 6, 1734, 'Katrinka', 'Mapholm', '+63 (867) 955-9463', 'aahrens14@soundcloud.com', 'TARJETA', 24);
+('LEKH152164738', '4-day pass', 6, 1734, 'Katrinka', 'Mapholm', '+63 (867) 955-9463', 'aahrens14@soundcloud.com', 'TARJETA', 24),
+('LEKO417978355', '1-day pass', 6, 630, 'Kimmie', 'Faherty', '+48 (500) 818-4577', 'kfahertycs@time.com', 'EFECTIVO', 6);
 INSERT INTO `tickets` (`id_compra`, `tipo_de_ticket`, `cantidad_de_tickets`, `monto_total_en_usd`, `nombre`, `apellido`, `telefono`, `direccion_de_mail`, `metodo_de_pago`, `pases_totales`) VALUES
-('LEKO417978355', '1-day pass', 6, 630, 'Kimmie', 'Faherty', '+48 (500) 818-4577', 'kfahertycs@time.com', 'EFECTIVO', 6),
 ('LEKR648875236', '4-day pass', 4, 1156, 'Marjory', 'Creyke', '+967 (709) 761-4817', 'mcreykejd@cornell.edu', 'EFECTIVO', 16),
 ('LEMP504140252', '1-day pass', 2, 210, 'Miranda', 'Lode', '+48 (403) 692-2461', 'mlodepm@ted.com', 'TARJETA', 2),
 ('LENR980838692', '1-day pass', 9, 945, 'Gerek', 'Pretious', '+976 (173) 688-5954', 'gpretious9b@elegantthemes.com', 'TARJETA', 9),
@@ -7459,6 +7458,7 @@ INSERT INTO `tickets` (`id_compra`, `tipo_de_ticket`, `cantidad_de_tickets`, `mo
 ('LWHA146649190', '1-day pass', 10, 1050, 'Sigismond', 'MacRorie', '+1 (816) 424-5368', 'smacrorienb@samsung.com', 'TARJETA', 10),
 ('LWIA234632443', '1-day pass', 10, 1050, 'Bartlett', 'Moule', '+1 (503) 877-4053', 'bmoule5j@craigslist.org', 'EFECTIVO', 10),
 ('LWIG097888957', '1-day pass', 8, 840, 'Oswell', 'Josling', '+93 (734) 413-3087', 'ojosling5d@washingtonpost.com', 'EFECTIVO', 8),
+('LWJI916387441', '1-day pass', 9, 945, 'Fernando', 'Castro', '+44 (112) 1234-9988', 'fccasdasd@arg.gov', 'EFECTIVO', 9),
 ('LWJM520161788', '1-day pass', 5, 525, 'Ive', 'Walklot', '+55 (210) 993-6825', 'iwalklotc8@yolasite.com', 'EFECTIVO', 5),
 ('LWKO937773178', '1-day pass', 2, 210, 'Mirna', 'Beadon', '+86 (758) 411-9551', 'mbeadon44@ning.com', 'TARJETA', 2),
 ('LWKV009620044', '4-day pass', 5, 1445, 'Kevina', 'Lavers', '+1 (573) 537-2722', 'iwinskillkw@bbb.org', 'TARJETA', 20),
@@ -11653,6 +11653,7 @@ INSERT INTO `tickets` (`id_compra`, `tipo_de_ticket`, `cantidad_de_tickets`, `mo
 ('TAUL464528543', '4-day pass', 10, 2890, 'Foss', 'Scartifield', '+7 (286) 525-3451', 'fscartifieldv@bizjournals.com', 'EFECTIVO', 40),
 ('TAVY804124734', '1-day pass', 8, 840, 'Darby', 'Pentony', '+86 (201) 215-2340', 'salbrooq@mtv.com', 'TARJETA', 8),
 ('TAWG693129914', '4-day pass', 4, 1156, 'Briny', 'Bussell', '+223 (416) 201-8794', 'aspinas4q@blogtalkradio.com', 'TARJETA', 16),
+('TAYO180645092', '3-day pass', 8, 1720, 'Fernando', 'Castro', '+1 (1555) 321-5566', 'fcascan@frba.edu', 'EFECTIVO', 24),
 ('TAYO486293274', '1-day pass', 6, 630, 'Eveleen', 'Bolesma', '+998 (786) 608-0418', 'ebolesmans@joomla.org', 'EFECTIVO', 6),
 ('TAZM317652807', '1-day pass', 7, 735, 'Tanitansy', 'Fuzzens', '+86 (408) 377-6085', 'tfuzzensl3@auda.org.au', 'EFECTIVO', 7),
 ('TBCV051199999', '4-day pass', 6, 1734, 'Hastie', 'Ondrusek', '+1 (368) 897-0949', 'hondrusek9@apple.com', 'EFECTIVO', 24),
@@ -11934,9 +11935,9 @@ INSERT INTO `tickets` (`id_compra`, `tipo_de_ticket`, `cantidad_de_tickets`, `mo
 ('TMPQ914489109', '4-day pass', 7, 2023, 'Ilysa', 'Tetla', '+86 (495) 261-3119', 'itetlacu@google.com', 'TARJETA', 28),
 ('TMPX685473264', '1-day pass', 6, 630, 'Darrin', 'Bartosiak', '+967 (204) 788-5512', 'lbrick5s@photobucket.com', 'TARJETA', 6),
 ('TMQF272774450', '1-day pass', 6, 630, 'Quinn', 'Styant', '+54 (482) 460-7591', 'qstyantdm@ed.gov', 'TARJETA', 6),
-('TMQK275298010', '1-day pass', 5, 525, 'Ede', 'Radmer', '+98 (231) 385-6623', 'mbesselll4@fotki.com', 'TARJETA', 5),
-('TMRP389527100', '4-day pass', 2, 578, 'Webb', 'Pybus', '+63 (236) 782-4631', 'wpybus5f@msn.com', 'EFECTIVO', 8);
+('TMQK275298010', '1-day pass', 5, 525, 'Ede', 'Radmer', '+98 (231) 385-6623', 'mbesselll4@fotki.com', 'TARJETA', 5);
 INSERT INTO `tickets` (`id_compra`, `tipo_de_ticket`, `cantidad_de_tickets`, `monto_total_en_usd`, `nombre`, `apellido`, `telefono`, `direccion_de_mail`, `metodo_de_pago`, `pases_totales`) VALUES
+('TMRP389527100', '4-day pass', 2, 578, 'Webb', 'Pybus', '+63 (236) 782-4631', 'wpybus5f@msn.com', 'EFECTIVO', 8),
 ('TMRZ534617760', '1-day pass', 7, 735, 'Lyon', 'Lawless', '+57 (125) 160-8361', 'ibletcherhv@hexun.com', 'EFECTIVO', 7),
 ('TMSA758068836', '4-day pass', 3, 867, 'Germana', 'Brusle', '+46 (741) 440-1849', 'sdugglebyz@nifty.com', 'TARJETA', 12),
 ('TMWS534959307', '1-day pass', 3, 315, 'Arel', 'La Torre', '+1 (501) 903-7641', 'aaggott19@drupal.org', 'TARJETA', 3),
@@ -12228,6 +12229,7 @@ INSERT INTO `tickets` (`id_compra`, `tipo_de_ticket`, `cantidad_de_tickets`, `mo
 ('UARY680306943', '1-day pass', 6, 630, 'Preston', 'Isacoff', '+46 (412) 407-1517', 'pisacoffhr@spiegel.de', 'EFECTIVO', 6),
 ('UASC710584774', '4-day pass', 6, 1734, 'Glennie', 'Bothie', '+86 (691) 257-3681', 'gbothieh7@patch.com', 'TARJETA', 24),
 ('UASX728928772', '4-day pass', 7, 2023, 'Carlin', 'Parchment', '+86 (520) 460-7197', 'khughlandlb@simplemachines.org', 'EFECTIVO', 28),
+('UAUA247504639', '3-day pass', 6, 1290, 'asdasdasd', 'asdasdasd', '123265347', 'asdasd!@asdasd', 'EFECTIVO', 18),
 ('UAVI062082027', '1-day pass', 2, 210, 'Shaylynn', 'Haslen', '+850 (587) 570-0457', 'shaslenjy@washington.edu', 'EFECTIVO', 2),
 ('UAVM396769345', '4-day pass', 4, 1156, 'Charissa', 'Duesberry', '+48 (896) 471-1484', 'cduesberryij@tripod.com', 'TARJETA', 16),
 ('UAXV059159849', '4-day pass', 9, 2601, 'Dasya', 'Hoolaghan', '+255 (241) 127-1512', 'dhoolaghannb@ezinearticles.com', 'EFECTIVO', 36),
@@ -12309,6 +12311,7 @@ INSERT INTO `tickets` (`id_compra`, `tipo_de_ticket`, `cantidad_de_tickets`, `mo
 ('UDGW925113545', '4-day pass', 10, 2890, 'Rickie', 'Joao', '+62 (774) 883-9635', 'rjoaoc1@ted.com', 'TARJETA', 40),
 ('UDHV166499043', '1-day pass', 4, 420, 'Bea', 'Wintle', '+420 (474) 141-0430', 'bwintleh4@wix.com', 'EFECTIVO', 4),
 ('UDJZ203375564', '4-day pass', 3, 867, 'Leonidas', 'Franzewitch', '+351 (250) 337-5729', 'lfranzewitchh7@bing.com', 'EFECTIVO', 12),
+('UDJZ284847163', '3-day pass', 6, 1290, 'asdasdasd', 'asdasdasd', '1234135326', 'asdasd@asdasd', 'EFECTIVO', 18),
 ('UDNE962890191', '1-day pass', 2, 210, 'Lenette', 'Ragbourn', '+353 (308) 622-4517', 'rwhittlesee95@moonfruit.com', 'TARJETA', 2),
 ('UDNZ425418050', '1-day pass', 8, 840, 'Rae', 'Juhruke', '+62 (827) 211-4027', 'rjuhrukerg@webs.com', 'TARJETA', 8),
 ('UDOB887157648', '1-day pass', 3, 315, 'Vally', 'Pentelow', '+381 (903) 930-1970', 'vpentelowm1@mysql.com', 'TARJETA', 3),
@@ -12336,11 +12339,11 @@ INSERT INTO `tickets` (`id_compra`, `tipo_de_ticket`, `cantidad_de_tickets`, `mo
 ('UEPX495787032', '4-day pass', 9, 2601, 'Marianne', 'Townrow', '+86 (685) 429-0034', 'mtownrowp7@washington.edu', 'TARJETA', 36),
 ('UERX635719052', '4-day pass', 10, 2890, 'Jeff', 'Caunce', '+58 (823) 634-7728', 'jcauncejt@usda.gov', 'TARJETA', 40),
 ('UEVB455168175', '4-day pass', 1, 289, 'Norton', 'Kennler', '+62 (813) 786-7251', 'nkennlerpu@dedecms.com', 'EFECTIVO', 4),
-('UEVO039047047', '4-day pass', 4, 1156, 'Chantal', 'Chasier', '+7 (228) 840-5454', 'cchasierq3@sun.com', 'EFECTIVO', 16),
+('UEVO039047047', '4-day pass', 4, 1156, 'Chantal', 'Chasier', '+7 (228) 840-5454', 'cchasierq3@sun.com', 'EFECTIVO', 16);
+INSERT INTO `tickets` (`id_compra`, `tipo_de_ticket`, `cantidad_de_tickets`, `monto_total_en_usd`, `nombre`, `apellido`, `telefono`, `direccion_de_mail`, `metodo_de_pago`, `pases_totales`) VALUES
 ('UEWB441557641', '4-day pass', 8, 2312, 'Jacky', 'Petrussi', '+242 (416) 291-3782', 'jpetrussihw@merriam-webster.com', 'TARJETA', 32),
 ('UEXD027710752', '1-day pass', 10, 1050, 'Richmond', 'Starbuck', '+86 (647) 890-6674', 'dpannamannh@prweb.com', 'TARJETA', 10),
-('UEXI248872357', '1-day pass', 2, 210, 'Ketti', 'Haycraft', '+86 (384) 715-5028', 'khaycraft9l@senate.gov', 'TARJETA', 2);
-INSERT INTO `tickets` (`id_compra`, `tipo_de_ticket`, `cantidad_de_tickets`, `monto_total_en_usd`, `nombre`, `apellido`, `telefono`, `direccion_de_mail`, `metodo_de_pago`, `pases_totales`) VALUES
+('UEXI248872357', '1-day pass', 2, 210, 'Ketti', 'Haycraft', '+86 (384) 715-5028', 'khaycraft9l@senate.gov', 'TARJETA', 2),
 ('UEYB459574004', '1-day pass', 2, 210, 'Marianne', 'McDarmid', '+374 (906) 545-2461', 'mmcdarmidgg@mediafire.com', 'EFECTIVO', 2),
 ('UEYV292679385', '4-day pass', 9, 2601, 'Mabelle', 'Premble', '+86 (384) 229-5565', 'bgawen10@indiatimes.com', 'EFECTIVO', 36),
 ('UEZQ025415018', '4-day pass', 10, 2890, 'Ax', 'Standbridge', '+62 (775) 664-7754', 'espinettig9@cpanel.net', 'EFECTIVO', 40),
@@ -12740,11 +12743,11 @@ INSERT INTO `tickets` (`id_compra`, `tipo_de_ticket`, `cantidad_de_tickets`, `mo
 ('UXZE979647936', '4-day pass', 5, 1445, 'Gisela', 'Conigsby', '+380 (153) 194-3770', 'gconigsbyf6@bloglines.com', 'TARJETA', 20),
 ('UYAV701338713', '1-day pass', 6, 630, 'Manfred', 'Fieldstone', '+86 (504) 530-5360', 'mfieldstone5l@qq.com', 'EFECTIVO', 6),
 ('UYAZ437238873', '4-day pass', 7, 2023, 'Wanda', 'Grint', '+48 (625) 386-7352', 'wgrintiv@latimes.com', 'EFECTIVO', 28),
-('UYED808197901', '1-day pass', 5, 525, 'Cati', 'Cobden', '+48 (992) 419-2627', 'ccobden3z@seesaa.net', 'TARJETA', 5),
+('UYED808197901', '1-day pass', 5, 525, 'Cati', 'Cobden', '+48 (992) 419-2627', 'ccobden3z@seesaa.net', 'TARJETA', 5);
+INSERT INTO `tickets` (`id_compra`, `tipo_de_ticket`, `cantidad_de_tickets`, `monto_total_en_usd`, `nombre`, `apellido`, `telefono`, `direccion_de_mail`, `metodo_de_pago`, `pases_totales`) VALUES
 ('UYFH578403771', '1-day pass', 5, 525, 'Malina', 'Clemow', '+62 (535) 250-7993', 'mclemow1e@studiopress.com', 'TARJETA', 5),
 ('UYFI791263192', '1-day pass', 7, 735, 'Griswold', 'Abrahamowitcz', '+64 (701) 836-4860', 'gabrahamowitczk2@baidu.com', 'EFECTIVO', 7),
-('UYGT587806380', '4-day pass', 7, 2023, 'Dominic', 'Fursey', '+62 (532) 333-9833', 'dfurseycy@vistaprint.com', 'TARJETA', 28);
-INSERT INTO `tickets` (`id_compra`, `tipo_de_ticket`, `cantidad_de_tickets`, `monto_total_en_usd`, `nombre`, `apellido`, `telefono`, `direccion_de_mail`, `metodo_de_pago`, `pases_totales`) VALUES
+('UYGT587806380', '4-day pass', 7, 2023, 'Dominic', 'Fursey', '+62 (532) 333-9833', 'dfurseycy@vistaprint.com', 'TARJETA', 28),
 ('UYHD037488064', '4-day pass', 3, 867, 'Sherwin', 'Prue', '+20 (753) 450-8957', 'sprue1o@mail.ru', 'EFECTIVO', 12),
 ('UYIX122176273', '1-day pass', 4, 420, 'Modesty', 'Yewen', '+86 (715) 595-9473', 'myewenjf@dyndns.org', 'TARJETA', 4),
 ('UYJB136036035', '4-day pass', 1, 289, 'Andreas', 'Chupin', '+241 (989) 134-0550', 'achupini8@washingtonpost.com', 'TARJETA', 4),
@@ -13143,11 +13146,11 @@ INSERT INTO `tickets` (`id_compra`, `tipo_de_ticket`, `cantidad_de_tickets`, `mo
 ('VRAU847912676', '1-day pass', 7, 735, 'Gamaliel', 'Iacovelli', '+212 (644) 687-3442', 'giacovellifc@nba.com', 'TARJETA', 7),
 ('VRBK933424194', '1-day pass', 2, 210, 'Crin', 'Ferriman', '+48 (543) 759-5314', 'cferrimancv@comcast.net', 'TARJETA', 2),
 ('VRCK763392587', '1-day pass', 5, 525, 'Deanna', 'Casel', '+387 (241) 141-0044', 'dcasel30@cornell.edu', 'TARJETA', 5),
-('VRCW475363758', '1-day pass', 7, 735, 'Daune', 'Renahan', '+1 (860) 717-1777', 'drenahan2a@multiply.com', 'TARJETA', 7),
+('VRCW475363758', '1-day pass', 7, 735, 'Daune', 'Renahan', '+1 (860) 717-1777', 'drenahan2a@multiply.com', 'TARJETA', 7);
+INSERT INTO `tickets` (`id_compra`, `tipo_de_ticket`, `cantidad_de_tickets`, `monto_total_en_usd`, `nombre`, `apellido`, `telefono`, `direccion_de_mail`, `metodo_de_pago`, `pases_totales`) VALUES
 ('VRDX632253120', '1-day pass', 6, 630, 'Granger', 'Showt', '+678 (945) 539-3840', 'gshowtlm@acquirethisname.com', 'EFECTIVO', 6),
 ('VREQ972732680', '1-day pass', 7, 735, 'Eleni', 'Heinert', '+966 (343) 397-8191', 'mcogzellga@fc2.com', 'TARJETA', 7),
-('VRGW943183541', '1-day pass', 10, 1050, 'Wenda', 'Dedman', '+216 (786) 116-2395', 'wdedmanet@netlog.com', 'TARJETA', 10);
-INSERT INTO `tickets` (`id_compra`, `tipo_de_ticket`, `cantidad_de_tickets`, `monto_total_en_usd`, `nombre`, `apellido`, `telefono`, `direccion_de_mail`, `metodo_de_pago`, `pases_totales`) VALUES
+('VRGW943183541', '1-day pass', 10, 1050, 'Wenda', 'Dedman', '+216 (786) 116-2395', 'wdedmanet@netlog.com', 'TARJETA', 10),
 ('VRIS551896559', '4-day pass', 7, 2023, 'Tandie', 'Pendleberry', '+62 (294) 127-5155', 'tpendleberrymx@ask.com', 'TARJETA', 28),
 ('VRJF574740571', '1-day pass', 5, 525, 'Silvanus', 'Sedgwick', '+33 (173) 226-0770', 'ssedgwicknl@wikipedia.org', 'TARJETA', 5),
 ('VRKF352540253', '1-day pass', 3, 315, 'Leandra', 'Hizir', '+1 (602) 838-9082', 'pgoulbornkj@msu.edu', 'EFECTIVO', 3),
@@ -13547,11 +13550,11 @@ INSERT INTO `tickets` (`id_compra`, `tipo_de_ticket`, `cantidad_de_tickets`, `mo
 ('WIEY184511909', '4-day pass', 4, 1156, 'Lizbeth', 'Farncombe', '+45 (110) 629-6775', 'lfarncombefc@sina.com.cn', 'EFECTIVO', 16),
 ('WIFB816913647', '1-day pass', 9, 945, 'Byran', 'Sennett', '+86 (871) 474-6792', 'bsennettlj@springer.com', 'TARJETA', 9),
 ('WIGA909889172', '4-day pass', 4, 1156, 'Tate', 'Pavie', '+63 (216) 613-4754', 'tpaviedn@lycos.com', 'EFECTIVO', 16),
-('WIJL557039454', '4-day pass', 4, 1156, 'Eward', 'MacNeilley', '+93 (332) 387-9577', 'emacneilleyaf@arizona.edu', 'EFECTIVO', 16),
+('WIJL557039454', '4-day pass', 4, 1156, 'Eward', 'MacNeilley', '+93 (332) 387-9577', 'emacneilleyaf@arizona.edu', 'EFECTIVO', 16);
+INSERT INTO `tickets` (`id_compra`, `tipo_de_ticket`, `cantidad_de_tickets`, `monto_total_en_usd`, `nombre`, `apellido`, `telefono`, `direccion_de_mail`, `metodo_de_pago`, `pases_totales`) VALUES
 ('WIKC492419348', '4-day pass', 4, 1156, 'Edi', 'Tredgold', '+55 (166) 306-9809', 'awhitewood24@domainmarket.com', 'TARJETA', 16),
 ('WIMQ387462714', '4-day pass', 7, 2023, 'Emmeline', 'Mottley', '+84 (101) 337-6586', 'emottleymg@is.gd', 'TARJETA', 28),
-('WIMR347268619', '1-day pass', 2, 210, 'Orsola', 'Kuzma', '+86 (850) 863-5415', 'okuzmabi@canalblog.com', 'EFECTIVO', 2);
-INSERT INTO `tickets` (`id_compra`, `tipo_de_ticket`, `cantidad_de_tickets`, `monto_total_en_usd`, `nombre`, `apellido`, `telefono`, `direccion_de_mail`, `metodo_de_pago`, `pases_totales`) VALUES
+('WIMR347268619', '1-day pass', 2, 210, 'Orsola', 'Kuzma', '+86 (850) 863-5415', 'okuzmabi@canalblog.com', 'EFECTIVO', 2),
 ('WING643694083', '4-day pass', 6, 1734, 'Godfry', 'Domenichini', '+7 (271) 215-2846', 'gdomenichinidi@baidu.com', 'TARJETA', 24),
 ('WIQE983719614', '1-day pass', 5, 525, 'Diannne', 'Siley', '+7 (697) 299-9367', 'dsileyi0@zdnet.com', 'EFECTIVO', 5),
 ('WIQR370612397', '1-day pass', 8, 840, 'Oby', 'Calender', '+48 (464) 132-3700', 'ocalenderb7@mysql.com', 'TARJETA', 8),
@@ -13952,11 +13955,11 @@ INSERT INTO `tickets` (`id_compra`, `tipo_de_ticket`, `cantidad_de_tickets`, `mo
 ('XAUB139440550', '4-day pass', 1, 289, 'Gayla', 'Please', '+976 (513) 687-2621', 'aspillaneq0@bravesites.com', 'EFECTIVO', 4),
 ('XAUS451894001', '4-day pass', 8, 2312, 'Kerr', 'Handsheart', '+62 (562) 398-4719', 'khandsheartc3@skyrock.com', 'EFECTIVO', 32),
 ('XAVC420266481', '4-day pass', 7, 2023, 'Winnie', 'Klagge', '+62 (947) 864-5376', 'wklagge88@fc2.com', 'EFECTIVO', 28),
-('XAVH057560712', '1-day pass', 2, 210, 'Elissa', 'Stein', '+63 (315) 427-9631', 'esteinjp@unblog.fr', 'EFECTIVO', 2),
+('XAVH057560712', '1-day pass', 2, 210, 'Elissa', 'Stein', '+63 (315) 427-9631', 'esteinjp@unblog.fr', 'EFECTIVO', 2);
+INSERT INTO `tickets` (`id_compra`, `tipo_de_ticket`, `cantidad_de_tickets`, `monto_total_en_usd`, `nombre`, `apellido`, `telefono`, `direccion_de_mail`, `metodo_de_pago`, `pases_totales`) VALUES
 ('XAYF522393135', '4-day pass', 1, 289, 'Daphna', 'Tewes', '+7 (271) 123-4321', 'dtewesdc@dailymotion.com', 'EFECTIVO', 4),
 ('XAZO660398691', '4-day pass', 1, 289, 'Walt', 'Quaife', '+420 (115) 417-8665', 'eellissen5d@paginegialle.it', 'EFECTIVO', 4),
-('XBCK606348629', '4-day pass', 1, 289, 'Waylon', 'Pittem', '+86 (324) 169-4593', 'wpittemk6@360.cn', 'TARJETA', 4);
-INSERT INTO `tickets` (`id_compra`, `tipo_de_ticket`, `cantidad_de_tickets`, `monto_total_en_usd`, `nombre`, `apellido`, `telefono`, `direccion_de_mail`, `metodo_de_pago`, `pases_totales`) VALUES
+('XBCK606348629', '4-day pass', 1, 289, 'Waylon', 'Pittem', '+86 (324) 169-4593', 'wpittemk6@360.cn', 'TARJETA', 4),
 ('XBFT586950253', '1-day pass', 5, 525, 'Kaile', 'Jentzsch', '+81 (246) 432-1278', 'cgimbartb2@51.la', 'TARJETA', 5),
 ('XBHV351838322', '1-day pass', 9, 945, 'Jaime', 'Lathleiffure', '+220 (339) 641-0542', 'jlathleiffureiu@wikispaces.com', 'EFECTIVO', 9),
 ('XBHY272698423', '1-day pass', 2, 210, 'Aurthur', 'Dybald', '+86 (589) 889-6760', 'adybaldjm@webeden.co.uk', 'TARJETA', 2),
@@ -14355,11 +14358,11 @@ INSERT INTO `tickets` (`id_compra`, `tipo_de_ticket`, `cantidad_de_tickets`, `mo
 ('XSUM407837820', '4-day pass', 2, 578, 'Maurise', 'Sugars', '+86 (709) 352-3642', 'tcarletono2@usa.gov', 'TARJETA', 8),
 ('XSVO517868335', '1-day pass', 5, 525, 'Garrot', 'O\'Brogane', '+994 (792) 673-7913', 'gobroganekm@naver.com', 'EFECTIVO', 5),
 ('XSVW254232071', '4-day pass', 3, 867, 'Sancho', 'Few', '+359 (225) 409-8871', 'sfewfe@domainmarket.com', 'EFECTIVO', 12),
-('XSWI072409314', '4-day pass', 5, 1445, 'Lyn', 'Ream', '+62 (531) 248-3851', 'dgoundrillaj@icq.com', 'EFECTIVO', 20),
+('XSWI072409314', '4-day pass', 5, 1445, 'Lyn', 'Ream', '+62 (531) 248-3851', 'dgoundrillaj@icq.com', 'EFECTIVO', 20);
+INSERT INTO `tickets` (`id_compra`, `tipo_de_ticket`, `cantidad_de_tickets`, `monto_total_en_usd`, `nombre`, `apellido`, `telefono`, `direccion_de_mail`, `metodo_de_pago`, `pases_totales`) VALUES
 ('XSWJ172407598', '4-day pass', 6, 1734, 'Darius', 'Abramino', '+86 (863) 503-1360', 'khoudmontk5@xinhuanet.com', 'EFECTIVO', 24),
 ('XSWR528565921', '4-day pass', 10, 2890, 'Geneva', 'Mantle', '+505 (356) 587-3923', 'otootal2@tiny.cc', 'EFECTIVO', 40),
-('XSYR167466095', '1-day pass', 6, 630, 'Bertrando', 'Luby', '+62 (475) 959-7373', 'mpremblez@mapquest.com', 'EFECTIVO', 6);
-INSERT INTO `tickets` (`id_compra`, `tipo_de_ticket`, `cantidad_de_tickets`, `monto_total_en_usd`, `nombre`, `apellido`, `telefono`, `direccion_de_mail`, `metodo_de_pago`, `pases_totales`) VALUES
+('XSYR167466095', '1-day pass', 6, 630, 'Bertrando', 'Luby', '+62 (475) 959-7373', 'mpremblez@mapquest.com', 'EFECTIVO', 6),
 ('XSZM300155770', '1-day pass', 4, 420, 'Roanna', 'Werndley', '+62 (739) 802-8816', 'rwerndleyg2@networkadvertising.org', 'TARJETA', 4),
 ('XTAY370913624', '1-day pass', 6, 630, 'Kat', 'Kadwallider', '+62 (716) 335-6971', 'kkadwalliderol@google.com.au', 'EFECTIVO', 6),
 ('XTBW639983261', '1-day pass', 9, 945, 'Hewett', 'Thorington', '+86 (812) 243-5118', 'hthorington7y@devhub.com', 'EFECTIVO', 9),
@@ -14760,10 +14763,10 @@ INSERT INTO `tickets` (`id_compra`, `tipo_de_ticket`, `cantidad_de_tickets`, `mo
 ('YLTJ376886440', '4-day pass', 3, 867, 'Pauli', 'Kubicek', '+55 (974) 523-4135', 'pkubicek1f@paginegialle.it', 'TARJETA', 12),
 ('YLTS014229722', '4-day pass', 2, 578, 'Garvy', 'Shorter', '+86 (608) 474-4123', 'jphizackarleylu@huffingtonpost.com', 'TARJETA', 8),
 ('YLUE226314815', '1-day pass', 4, 420, 'Lambert', 'Oene', '+66 (731) 148-6259', 'loenef5@youtube.com', 'TARJETA', 4),
-('YLUE293248204', '4-day pass', 6, 1734, 'Linn', 'Saxby', '+33 (688) 657-8201', 'nspratlinglu@oaic.gov.au', 'TARJETA', 24),
-('YLUV651606120', '4-day pass', 10, 2890, 'Devlen', 'Gornal', '+503 (494) 520-9048', 'dgornalaf@cargocollective.com', 'EFECTIVO', 40),
-('YLWH623665705', '1-day pass', 5, 525, 'Everard', 'Haddington', '+55 (520) 864-7197', 'kmayburygc@bluehost.com', 'EFECTIVO', 5);
+('YLUE293248204', '4-day pass', 6, 1734, 'Linn', 'Saxby', '+33 (688) 657-8201', 'nspratlinglu@oaic.gov.au', 'TARJETA', 24);
 INSERT INTO `tickets` (`id_compra`, `tipo_de_ticket`, `cantidad_de_tickets`, `monto_total_en_usd`, `nombre`, `apellido`, `telefono`, `direccion_de_mail`, `metodo_de_pago`, `pases_totales`) VALUES
+('YLUV651606120', '4-day pass', 10, 2890, 'Devlen', 'Gornal', '+503 (494) 520-9048', 'dgornalaf@cargocollective.com', 'EFECTIVO', 40),
+('YLWH623665705', '1-day pass', 5, 525, 'Everard', 'Haddington', '+55 (520) 864-7197', 'kmayburygc@bluehost.com', 'EFECTIVO', 5),
 ('YLXN244198146', '4-day pass', 7, 2023, 'Margret', 'Pakenham', '+33 (996) 798-1811', 'mpakenhamrk@indiegogo.com', 'EFECTIVO', 28),
 ('YLXO473540560', '1-day pass', 1, 105, 'Valaree', 'Stailey', '+27 (212) 757-2451', 'vstaileygy@opensource.org', 'EFECTIVO', 1),
 ('YMBH538982136', '1-day pass', 8, 840, 'Josie', 'Vitall', '+30 (927) 842-1573', 'jvitallpg@mashable.com', 'TARJETA', 8),
@@ -15163,11 +15166,11 @@ INSERT INTO `tickets` (`id_compra`, `tipo_de_ticket`, `cantidad_de_tickets`, `mo
 ('ZDCQ286083614', '1-day pass', 6, 630, 'Wiley', 'Anslow', '+420 (371) 365-3794', 'wanslow74@sfgate.com', 'EFECTIVO', 6),
 ('ZDET773357271', '1-day pass', 7, 735, 'Skipton', 'Grason', '+351 (230) 494-1491', 'sgrasone3@opera.com', 'TARJETA', 7),
 ('ZDFK719015805', '1-day pass', 1, 105, 'Jenna', 'Chantree', '+86 (830) 618-9848', 'jchantree3u@wiley.com', 'TARJETA', 1),
-('ZDGX150945704', '1-day pass', 8, 840, 'Orelia', 'Buntine', '+7 (183) 414-8894', 'obuntinemx@theatlantic.com', 'EFECTIVO', 8),
+('ZDGX150945704', '1-day pass', 8, 840, 'Orelia', 'Buntine', '+7 (183) 414-8894', 'obuntinemx@theatlantic.com', 'EFECTIVO', 8);
+INSERT INTO `tickets` (`id_compra`, `tipo_de_ticket`, `cantidad_de_tickets`, `monto_total_en_usd`, `nombre`, `apellido`, `telefono`, `direccion_de_mail`, `metodo_de_pago`, `pases_totales`) VALUES
 ('ZDIM523751386', '1-day pass', 3, 315, 'Pattie', 'Quiddinton', '+86 (589) 589-2265', 'pquiddintonz@addthis.com', 'EFECTIVO', 3),
 ('ZDKW575327709', '4-day pass', 3, 867, 'Fair', 'Steynor', '+84 (371) 746-0740', 'fsteynorix@diigo.com', 'TARJETA', 12),
-('ZDMK804191603', '4-day pass', 8, 2312, 'Shane', 'Yearsley', '+86 (753) 403-2640', 'syearsley5q@senate.gov', 'EFECTIVO', 32);
-INSERT INTO `tickets` (`id_compra`, `tipo_de_ticket`, `cantidad_de_tickets`, `monto_total_en_usd`, `nombre`, `apellido`, `telefono`, `direccion_de_mail`, `metodo_de_pago`, `pases_totales`) VALUES
+('ZDMK804191603', '4-day pass', 8, 2312, 'Shane', 'Yearsley', '+86 (753) 403-2640', 'syearsley5q@senate.gov', 'EFECTIVO', 32),
 ('ZDMN944097667', '4-day pass', 4, 1156, 'Gabriell', 'Rosekilly', '+86 (193) 595-4514', 'grosekillyob@ning.com', 'TARJETA', 16),
 ('ZDOQ800139144', '4-day pass', 5, 1445, 'Florian', 'Keohane', '+86 (254) 145-3639', 'aaustonkt@bizjournals.com', 'EFECTIVO', 20),
 ('ZDQE626926592', '4-day pass', 2, 578, 'Etta', 'Kalewe', '+86 (795) 595-1303', 'tbosselmh@instagram.com', 'EFECTIVO', 8),
@@ -15566,11 +15569,11 @@ INSERT INTO `tickets` (`id_compra`, `tipo_de_ticket`, `cantidad_de_tickets`, `mo
 ('ZUTV188696551', '1-day pass', 2, 210, 'Slade', 'Adamou', '+269 (622) 362-2961', 'ibackshawmc@skype.com', 'TARJETA', 2),
 ('ZUTY504428848', '1-day pass', 1, 105, 'Melisse', 'Wakes', '+256 (164) 691-4281', 'mwakesm7@harvard.edu', 'EFECTIVO', 1),
 ('ZUVC268601697', '4-day pass', 2, 578, 'Olympe', 'Trahmel', '+62 (663) 263-3341', 'ksteetik@cam.ac.uk', 'TARJETA', 8),
-('ZUWK231308079', '4-day pass', 9, 2601, 'Verina', 'Brookwood', '+63 (894) 335-4326', 'vbrookwood8q@china.com.cn', 'TARJETA', 36),
+('ZUWK231308079', '4-day pass', 9, 2601, 'Verina', 'Brookwood', '+63 (894) 335-4326', 'vbrookwood8q@china.com.cn', 'TARJETA', 36);
+INSERT INTO `tickets` (`id_compra`, `tipo_de_ticket`, `cantidad_de_tickets`, `monto_total_en_usd`, `nombre`, `apellido`, `telefono`, `direccion_de_mail`, `metodo_de_pago`, `pases_totales`) VALUES
 ('ZVAD917607118', '1-day pass', 10, 1050, 'Bil', 'Sandbach', '+46 (844) 217-3162', 'bsandbach4m@goo.gl', 'TARJETA', 10),
 ('ZVAQ908247078', '4-day pass', 9, 2601, 'Leif', 'Coytes', '+55 (928) 970-2494', 'lcoytes9p@geocities.com', 'EFECTIVO', 36),
-('ZVAX844398852', '4-day pass', 3, 867, 'Winn', 'Arndt', '+63 (486) 494-3891', 'warndt5f@youtube.com', 'EFECTIVO', 12);
-INSERT INTO `tickets` (`id_compra`, `tipo_de_ticket`, `cantidad_de_tickets`, `monto_total_en_usd`, `nombre`, `apellido`, `telefono`, `direccion_de_mail`, `metodo_de_pago`, `pases_totales`) VALUES
+('ZVAX844398852', '4-day pass', 3, 867, 'Winn', 'Arndt', '+63 (486) 494-3891', 'warndt5f@youtube.com', 'EFECTIVO', 12),
 ('ZVDO681448246', '4-day pass', 10, 2890, 'Adore', 'Berndt', '+1 (704) 419-2407', 'aberndt2u@privacy.gov.au', 'EFECTIVO', 40),
 ('ZVEK298943024', '1-day pass', 5, 525, 'Chelsae', 'Crank', '+63 (156) 668-9263', 'dhuskissonrp@ehow.com', 'EFECTIVO', 5),
 ('ZVFO765874602', '4-day pass', 3, 867, 'Lilli', 'Dawidowitz', '+355 (906) 325-3630', 'sdarnborough41@oakley.com', 'EFECTIVO', 12),
@@ -16116,7 +16119,7 @@ INSERT INTO `tienda` (`ID Compra`, `Producto`, `Talle`, `Cantidad`, `Monto`, `No
 (4413, 'Mochila Grande', 'NULL', 1, NULL, 'Caresa', 'Gaiger', 'cgaigerbn@ameblo.jp', 'TARJETA', 'En punto de retiro 2', 'Pendiente'),
 (4432, 'Gorro', 'NULL', 3, NULL, 'Efrem', 'Djekic', 'edjekicbo@sciencedirect.com', 'TARJETA', 'En el festival', 'Pendiente'),
 (4442, 'Billetera', 'NULL', 2, NULL, 'Forrest', 'Malyan', 'fmalyanbp@shareasale.com', 'TARJETA', 'En el festival', 'Pendiente'),
-(4444, 'Billetera', 'NULL', 2, NULL, 'Fernando', 'Castro', 'fcc092@gmail.com', 'EFECTIVO', 'En el festival', 'Listo para retirar'),
+(4444, 'Billetera', 'NULL', 2, NULL, 'Fernando', 'Castro', 'fcc@gmail.com', 'EFECTIVO', 'En el festival', 'Listo para retirar'),
 (4460, 'Billetera', 'NULL', 3, NULL, 'Federica', 'Preston', 'fprestonbq@surveymonkey.com', 'TARJETA', 'En punto de retiro 1', 'Pendiente'),
 (4465, 'Remera Adulto Hombre', 'L', 3, NULL, 'Caddric', 'Harvett', 'charvettbr@go.com', 'TARJETA', 'En el festival', 'Listo para retirar'),
 (4484, 'Gorra', 'NULL', 1, NULL, 'Nelle', 'Blemings', 'nblemingsbs@latimes.com', 'TARJETA', 'En punto de retiro 1', 'Listo para retirar'),
@@ -16232,7 +16235,7 @@ INSERT INTO `tienda` (`ID Compra`, `Producto`, `Talle`, `Cantidad`, `Monto`, `No
 (5538, 'Cinturon', 'NULL', 1, NULL, 'Shelby', 'McPhate', 'smcphateet@state.tx.us', 'EFECTIVO', 'En punto de retiro 2', 'Pendiente'),
 (5545, 'Billetera', 'NULL', 2, NULL, 'Charlean', 'Raithby', 'craithbyeu@google.com.au', 'TARJETA', 'En punto de retiro 1', 'Pendiente'),
 (5546, 'Gorro', 'NULL', 1, NULL, 'Laurent', 'Castagneri', 'lcastagneriev@geocities.com', 'EFECTIVO', 'En el festival', 'Pendiente'),
-(5555, 'Remera Adulto Hombre', 'XL', 1, NULL, 'Fernando', 'Castro', 'fcc092@gmail.com', 'TARJETA', 'En punto de retiro 3', 'Pendiente'),
+(5555, 'Remera Adulto Hombre', 'XL', 1, NULL, 'Fernando', 'Castro', 'facc@argentina.gov.ar', 'TARJETA', 'En punto de retiro 3', 'Pendiente'),
 (5557, 'Billetera', 'NULL', 1, NULL, 'Thornton', 'Siemon', 'tsiemonew@multiply.com', 'EFECTIVO', 'En punto de retiro 3', 'Pendiente'),
 (5566, 'Peluche', 'NULL', 3, NULL, 'Raimondo', 'Quilter', 'rquilterex@phpbb.com', 'EFECTIVO', 'En punto de retiro 3', 'Pendiente'),
 (5569, 'Remera Ni�a', 'NULL', 3, NULL, 'Pearline', 'Olyfant', 'polyfantey@addthis.com', 'EFECTIVO', 'En el festival', 'Pendiente'),
@@ -16454,7 +16457,7 @@ INSERT INTO `tienda` (`ID Compra`, `Producto`, `Talle`, `Cantidad`, `Monto`, `No
 (7747, 'Pulsera', 'NULL', 3, NULL, 'Zena', 'Ramsdale', 'zramsdalekx@friendfeed.com', 'EFECTIVO', 'En punto de retiro 1', 'Pendiente'),
 (7749, 'Comic', 'NULL', 2, NULL, 'Jose', 'Husset', 'jhussetky@github.io', 'TARJETA', 'En punto de retiro 1', 'Listo para retirar'),
 (7764, 'Mochila Grande', 'NULL', 2, NULL, 'Oralie', 'Houndsom', 'ohoundsomkz@mozilla.com', 'TARJETA', 'En punto de retiro 2', 'Pendiente'),
-(7777, 'Zippo Hellfest', 'NULL', 1, NULL, 'Ronnie James', 'Dio Padavona', 'hellfest@mail.com', 'EFECTIVO', 'En el festival', 'Pendiente'),
+(7777, 'Zippo Hellfest', 'NULL', 1, NULL, 'Ronnie James', 'Dio Padavona', 'hellfest@mail.com', 'TARJETA	', 'En punto de retiro 2', 'Pendiente'),
 (7796, 'Mochila Grande', 'NULL', 2, NULL, 'Tom', 'Meckiff', 'tmeckiffl0@businessweek.com', 'EFECTIVO', 'En punto de retiro 3', 'Pendiente'),
 (7797, 'Billetera', 'NULL', 3, NULL, 'Sanford', 'Burnep', 'sburnepl1@eventbrite.com', 'EFECTIVO', 'En punto de retiro 1', 'Pendiente'),
 (7807, 'Peluche', 'NULL', 2, NULL, 'Gerrie', 'Baraja', 'gbarajal2@chron.com', 'TARJETA', 'En el festival', 'Pendiente'),
@@ -32415,6 +32418,12 @@ INSERT INTO `usuarios` (`id_user`, `password`, `direccion_de_mail`, `nombre`, `a
 (67717827057768100, 'jnSxaHl66L8', 'obuntinemx@theatlantic.com', 'Orelia', 'Buntine', 'Comprador'),
 (67718569595770800, 'FPqXg8hF', 'aaustonkt@bizjournals.com', 'Florian', 'Keohane', 'Comprador'),
 (67718712210703500, 'L2JqIT90', 'hsuston4n@shutterfly.com', 'Horatio', 'Suston', 'Comprador'),
+(92407769932386242, 'contrasenia', 'test@test.com', 'Testman', 'Toasty', 'Personal'),
+(124750257693830334, 'contrasenia_updatead', 'test@test.com', 'Testman_updateado', 'Toasty_updateado', 'Proveedor'),
+(195048060936212085, 'contrasenia_updatead', 'test@test.com', 'Testman_updateado', 'Toasty_updateado', 'Proveedor'),
+(335804389944277878, 'contrasenia', 'test@test.com', '1', 'Toasty', 'Personal'),
+(366225703137862872, 'contrasenia', 'test@test.com', 'Testman', 'Toasty', 'Personal'),
+(457983584897650716, 'contrasenia_updatead', 'test@test.com', 'Testman_updateado', 'Toasty_updateado', 'Proveedor'),
 (490304610248485000, 'ii7dE1Ji', '', '', '', ''),
 (490307272980346000, 'WDZzgiZ', 'nsawtellgo@engadget.com', 'Nancie', 'Sawtell', 'Comprador'),
 (490307283823008000, 'mTesjTNIbEv', 'jgarry12@census.gov', 'Jean', 'Garry', 'Comprador'),
@@ -32441,14 +32450,14 @@ INSERT INTO `usuarios` (`id_user`, `password`, `direccion_de_mail`, `nombre`, `a
 (490341168079660000, '2o8BiR', 'slauxmannlb@wisc.edu', 'Stearn', 'Lauxmann', 'Comprador'),
 (490345984596920000, 'witk60zJql', 'jainscoughgz@google.ca', 'Janette', 'Ainscough', 'Comprador'),
 (490349149775429000, 'ZHOtz0', 'jcorbygq@4shared.com', 'Irene', 'Rait', 'Comprador'),
-(490349342575120000, 'auv8Da', 'kerett3g@paypal.com', 'Karilynn', 'Erett', 'Comprador'),
+(490349342575120000, 'auv8Da', 'kerett3g@paypal.com', 'Karilynn', 'Erett', 'Comprador');
+INSERT INTO `usuarios` (`id_user`, `password`, `direccion_de_mail`, `nombre`, `apellido`, `rol`) VALUES
 (490349477046418000, 'hxSLVeqlSnxa', 'lmatteonick@homestead.com', 'Leigh', 'Matteoni', 'Comprador'),
 (490352971994648000, 'So8WwXfHlV', 'mscottera4@bluehost.com', 'Maryanne', 'Scotter', 'Comprador'),
 (490358909490876000, 'DeZgaRpl', '', '', '', ''),
 (490359628010417000, 'zYNrte0gjAWd', 'aeccottd3@timesonline.co.uk', 'Zora', 'Swainson', 'Comprador'),
 (490360876820354000, 'DjEbxGqRh', 'reyckelfz@discuz.net', 'Robinett', 'Eyckel', 'Personal'),
-(490366657444533000, 'sxWYuicAP', 'hotterwell6v@usgs.gov', 'Roscoe', 'McTrustie', 'Comprador');
-INSERT INTO `usuarios` (`id_user`, `password`, `direccion_de_mail`, `nombre`, `apellido`, `rol`) VALUES
+(490366657444533000, 'sxWYuicAP', 'hotterwell6v@usgs.gov', 'Roscoe', 'McTrustie', 'Comprador'),
 (490368697799502000, 'WLyBFHh1De', 'jchetwinhq@twitter.com', 'Deloria', 'Yarnell', 'Comprador'),
 (490369954435476000, 'DjK40EP1', 'emandrier2d@ameblo.jp', 'Loy', 'Bransden', 'Comprador'),
 (490373863780283000, 'DpsShAh', '', '', '', ''),
@@ -32652,6 +32661,8 @@ INSERT INTO `usuarios` (`id_user`, `password`, `direccion_de_mail`, `nombre`, `a
 (503887182764943000, 'D9Wa20', 'dyonge3i@biblegateway.com', 'Damaris', 'Yonge', 'Personal'),
 (503896711538619000, 'M6FceoB', 'bkalkofer8m@dyndns.org', 'Barbe', 'Kalkofer', 'Comprador'),
 (503897880951510000, '1Z9qzsWC', 'sfassamd@elpais.com', 'Siobhan', 'Fassam', 'Comprador'),
+(537509473376785291, 'contrasenia', 'test@test.com', 'Testman', 'Toasty', 'Personal'),
+(555102214601114380, 'asdasd', 'test@test.com', 'Testman_updated', 'Toasty_updated', 'Comprador'),
 (560221075923019000, 'ssd9yV', 'jtutherr9@noaa.gov', 'Jennee', 'Tuther', 'Comprador'),
 (560221138802490000, 'KpdGp8W', 'ccunniffen@edublogs.org', 'Cynde', 'Cunniff', 'Comprador'),
 (560221325016171000, 'ZTcJleN', 'acollard5o@wp.com', 'Alida', 'Collard', 'Comprador'),
@@ -33005,7 +33016,8 @@ INSERT INTO `usuarios` (`id_user`, `password`, `direccion_de_mail`, `nombre`, `a
 (633325900484908000, 'YGVuOktr', '', '', '', ''),
 (633330604253772000, 'WfsVhderlW2', 'ncorneliusl1@vistaprint.com', 'Nari', 'Cornelius', 'Comprador'),
 (633331282595549000, 'Lq147R84tJwu', '', '', '', ''),
-(633332701406496000, 'Q3SYni', 'npadmoredo@last.fm', 'Nat', 'Padmore', 'Comprador'),
+(633332701406496000, 'Q3SYni', 'npadmoredo@last.fm', 'Nat', 'Padmore', 'Comprador');
+INSERT INTO `usuarios` (`id_user`, `password`, `direccion_de_mail`, `nombre`, `apellido`, `rol`) VALUES
 (633336441673291000, 'B0R4U1w', 'aportrissbr@instagram.com', 'Ashley', 'Portriss', 'Comprador'),
 (633337022339155000, 'Fw6JSzmpe', 'pdelascyot@ucoz.ru', 'Pace', 'Dulson', 'Comprador'),
 (633339125684621000, 'eh0vo69b', 'ssawkino6@usatoday.com', 'Sari', 'Sawkin', 'Comprador'),
@@ -33013,8 +33025,7 @@ INSERT INTO `usuarios` (`id_user`, `password`, `direccion_de_mail`, `nombre`, `a
 (633340777785451000, 'Xnu6VEmXOQ', 'lgrealyjd@merriam-webster.com', 'Letti', 'Grealy', 'Comprador'),
 (633344671617659000, '23xXbUx', 'ntreves12@vistaprint.com', 'Nikolaus', 'Treves', 'Comprador'),
 (633345327986096000, 'n0UF0spw', 'woxbiem1@pen.io', 'Willie', 'Oxbie', 'Comprador'),
-(633351404182703000, '7h4KwIs0DAZ', 'gblacktinkl@ezinearticles.com', 'Gerick', 'Blacktin', 'Comprador');
-INSERT INTO `usuarios` (`id_user`, `password`, `direccion_de_mail`, `nombre`, `apellido`, `rol`) VALUES
+(633351404182703000, '7h4KwIs0DAZ', 'gblacktinkl@ezinearticles.com', 'Gerick', 'Blacktin', 'Comprador'),
 (633351781001423000, 'M3Xw7t', 'mdeetlefsmz@auda.org.au', 'Mimi', 'Deetlefs', 'Comprador'),
 (633354879955762000, 'N6u1sbL8xw', 'wolooney1v@shutterfly.com', 'Skipp', 'Morrad', 'Comprador'),
 (633355023512267000, '6f6s41TN', '', '', '', ''),
@@ -33085,6 +33096,7 @@ INSERT INTO `usuarios` (`id_user`, `password`, `direccion_de_mail`, `nombre`, `a
 (633491159356059000, 'tGvAMydRm', 'edooguebt@imdb.com', 'Ethelda', 'Doogue', 'Comprador'),
 (633493961834210000, 'mqF2GQO', 'kbladder68@over-blog.com', 'Kerwin', 'Bladder', 'Comprador'),
 (633495825242667000, 'cFVGvtlLBc9', 'wshatliffn@aol.com', 'Shelagh', 'Hacquard', 'Comprador'),
+(644292031264502843, 'contrasenia_updatead', 'test@test.com', 'Testman_updateado', 'Toasty_updateado', 'Proveedor'),
 (670600394822961000, 'g9EMLd5A', 'rbrocktono6@hao123.com', 'Rochella', 'Brockton', 'Comprador'),
 (670610022639085000, 'X09ugf8PrL2', 'mfilpofi@behance.net', 'Tierney', 'Albrecht', 'Comprador'),
 (670613446191207000, 'PT1SYw', '', '', '', ''),
@@ -33389,7 +33401,8 @@ INSERT INTO `usuarios` (`id_user`, `password`, `direccion_de_mail`, `nombre`, `a
 (677189410560579000, 'Y5lnBZJ922', 'nvasilechkogd@oracle.com', 'Yorgo', 'Hellmore', 'Comprador'),
 (677192358441332000, 'cczx1PkYEU08', 'gcowserpu@seattletimes.com', 'Glen', 'Cowser', 'Comprador'),
 (677196466188280000, 'kxd2pb8', 'tjansecc@scientificamerican.com', 'Reginald', 'Fawlo', 'Comprador'),
-(1223334444555556666, 'ASD123', 'fcc092@gmail.com', 'Fernando', 'Castro', 'Personal'),
+(771567106653713764, 'contrasenia_updatead', 'test@test.com', 'Testman_updateado', 'Toasty_updateado', 'Proveedor'),
+(1223334444555556666, 'ASD123', 'test@test.com', 'Testman', 'Tester', 'Personal'),
 (2125249314870730294, 'ASD123', 'horacio@gmail.com', 'HORACIO', 'onetech', 'Comprador'),
 (4903056504202860000, 'POjFZ4YX', 'rbartolomeotti5n@stumbleupon.com', 'Jacky', 'Larmor', 'Comprador'),
 (4903063505606430000, 'a8zKXT92', 'bprowting8t@disqus.com', 'Beau', 'Prowting', 'Comprador'),
@@ -33575,7 +33588,8 @@ INSERT INTO `usuarios` (`id_user`, `password`, `direccion_de_mail`, `nombre`, `a
 (5018367590615900000, 'ddZ4myVS', 'rkuzemkafe@wordpress.org', 'Reynolds', 'Kuzemka', 'Comprador'),
 (5018390243971950000, 'VfwAsJq1qOw', '', '', '', ''),
 (5018393824398900000, 'amPMnegslhM9', 'raspa2@msn.com', 'Rube', 'Asp', 'Comprador'),
-(5018441715732070000, 'H0Nsi0tcWf', '', '', '', ''),
+(5018441715732070000, 'H0Nsi0tcWf', '', '', '', '');
+INSERT INTO `usuarios` (`id_user`, `password`, `direccion_de_mail`, `nombre`, `apellido`, `rol`) VALUES
 (5018450994326770000, 'sPFagemwAW', 'dpeepall8j@weather.com', 'Dyanna', 'Peepall', 'Comprador'),
 (5018456052290870000, 'TV3ip0i', 'xrammell8j@tinypic.com', 'Brook', 'Wasling', 'Comprador'),
 (5018540162080420000, 'olhoaAvhYJe', 'tchadwenqe@google.it', 'Terri', 'Chadwen', 'Comprador'),
@@ -33586,8 +33600,7 @@ INSERT INTO `usuarios` (`id_user`, `password`, `direccion_de_mail`, `nombre`, `a
 (5018621252597700000, 'fOWYrGXDxr', 'hgoodief2@nba.com', 'Heddie', 'Goodie', 'Comprador'),
 (5018622451077170000, 'J3LZsq', '', '', '', ''),
 (5018638863668680000, '6zP1QNxTE', 'hduffiln2@wikispaces.com', 'Alisa', 'Fyndon', 'Comprador'),
-(5018646931351530000, '8l4k0jfByS3f', 'cgarmonx@yandex.ru', 'Putnam', 'Cockings', 'Comprador');
-INSERT INTO `usuarios` (`id_user`, `password`, `direccion_de_mail`, `nombre`, `apellido`, `rol`) VALUES
+(5018646931351530000, '8l4k0jfByS3f', 'cgarmonx@yandex.ru', 'Putnam', 'Cockings', 'Comprador'),
 (5018673518990300000, 'byv3sxt2', 'ljoskowitzdv@wired.com', 'Lenna', 'Joskowitz', 'Comprador'),
 (5018747172404960000, 'uZnG2mYY', 'sofallon8v@unc.edu', 'Siward', 'O\'Fallon', 'Comprador'),
 (5018825338069280000, 'PmdSJu0', 'iscorah54@twitpic.com', 'Irina', 'Scorah', 'Comprador'),
@@ -34138,7 +34151,8 @@ INSERT INTO `usuarios` (`id_user`, `password`, `direccion_de_mail`, `nombre`, `a
 (6759219686838040000, 'NzycmSz8', 'osampsonqi@csmonitor.com', 'Olva', 'Sampson', 'Comprador'),
 (6759225947789130000, 'QjxYrY', '', '', '', ''),
 (6759238984444380000, '8G9QvxD', 'redden2p@businesswire.com', 'Robyn', 'Edden', 'Comprador'),
-(6759244406741720000, 'eELpAH5', 'dcrimpeo9@zimbio.com', 'Drugi', 'Crimpe', 'Comprador'),
+(6759244406741720000, 'eELpAH5', 'dcrimpeo9@zimbio.com', 'Drugi', 'Crimpe', 'Comprador');
+INSERT INTO `usuarios` (`id_user`, `password`, `direccion_de_mail`, `nombre`, `apellido`, `rol`) VALUES
 (6759246205819800000, 'sETv7DIoYaBO', 'gmacqueenfd@imageshack.us', 'Godart', 'MacQueen', 'Comprador'),
 (6759246730973490000, 'HlF1xcR', 'jkeatsj1@jiathis.com', 'Joeann', 'Keats', 'Comprador'),
 (6759258348026680000, 'C8MT0UN', 'lperellohp@icq.com', 'Brennen', 'Partleton', 'Comprador'),
@@ -34149,8 +34163,7 @@ INSERT INTO `usuarios` (`id_user`, `password`, `direccion_de_mail`, `nombre`, `a
 (6759317915742700000, 'VS6uo1f4k', 'bgrzes13@boston.com', 'Bary', 'Grzes', 'Comprador'),
 (6759358030930690000, 'er8ESuysbXnc', 'tisaqpw@dailymail.co.uk', 'Turner', 'Isaq', 'Comprador'),
 (6759372948839900000, 'u2zTO0mA7G', 'mgreenawayeo@sakura.ne.jp', 'Angela', 'Strippling', 'Comprador'),
-(6759381855463760000, 'Lka7wQ', 'hblagdon6z@vistaprint.com', 'Hildagarde', 'Blagdon', 'Comprador');
-INSERT INTO `usuarios` (`id_user`, `password`, `direccion_de_mail`, `nombre`, `apellido`, `rol`) VALUES
+(6759381855463760000, 'Lka7wQ', 'hblagdon6z@vistaprint.com', 'Hildagarde', 'Blagdon', 'Comprador'),
 (6759401260344670000, '9z3PQU', 'htupiefq@geocities.jp', 'Heindrick', 'Tupie', 'Comprador'),
 (6759427106235370000, 'pNN7ipbBiH', 'smatthiesenls@geocities.jp', 'Wendie', 'Ashford', 'Comprador'),
 (6759428159847280000, 'h49FKs', 'hmcgilroybw@deviantart.com', 'Wernher', 'O\' Sullivan', 'Comprador'),

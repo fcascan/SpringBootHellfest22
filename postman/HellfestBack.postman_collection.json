@@ -1,0 +1,368 @@
+{
+	"info": {
+		"_postman_id": "209278ba-bc75-4042-993c-77ed13ec1445",
+		"name": "HellfestBack",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21314826"
+	},
+	"item": [
+		{
+			"name": "Tickets",
+			"item": [
+				{
+					"name": "Get All Tickets",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/v1/tickets/find",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"tickets",
+								"find"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Ticket by ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/v1/tickets/find/id/GHBF627199731",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"tickets",
+								"find",
+								"id",
+								"GHBF627199731"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Ticket By Email",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/v1/tickets/find/fccasdasd@arg.gov",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"tickets",
+								"find",
+								"fccasdasd@arg.gov"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Ticket By Name",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/v1/tickets/find/Fernando/Castro",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"tickets",
+								"find",
+								"Fernando",
+								"Castro"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add Ticket",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"tipoDeTicket\": \"3-day pass\",\r\n    \"cantidadDeTickets\": 8,\r\n    \"nombre\": \"Fernando\",\r\n    \"apellido\": \"Castro\",\r\n    \"direccionDeMail\": \"fccasdasd@arg.gov\",\r\n    \"telefono\": \"+54 (011) 123-6677\",\r\n    \"metodoDePago\": \"EFECTIVO\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api/v1/tickets/add",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"tickets",
+								"add"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Ticket By ID",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"tipoDeTicket\": \"1-day pass\",\r\n    \"cantidadDeTickets\": 9,\r\n    \"nombre\": \"Fernando\",\r\n    \"apellido\": \"Castro\",\r\n    \"direccionDeMail\": \"fccasdasd@arg.gov\",\r\n    \"telefono\": \"+54 (011) 123-6677\",\r\n    \"metodoDePago\": \"TARJETA\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api/v1/tickets/find/id/LWJI916387441",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"tickets",
+								"find",
+								"id",
+								"LWJI916387441"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Ticket By ID",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/v1/tickets/find/id/GHBF627199731",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"tickets",
+								"find",
+								"id",
+								"GHBF627199731"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Users",
+			"item": [
+				{
+					"name": "Get All Users",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/v1/users",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get User By ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/v1/users/id/595168233124183017",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"users",
+								"id",
+								"595168233124183017"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get User By Email",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/v1/users/test@test.com",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"users",
+								"test@test.com"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Login with Credentials",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"password\": \"ASD123\",\r\n    \"direccion_de_mail\": \"fcc092@gmail.com\",\r\n    \"rol\": \"Personal\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api/v1/login",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Register New User",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"direccion_de_mail\": \"test@test.com\",\r\n    \"password\": \"contrasenia\",\r\n    \"nombre\": \"Testman\",\r\n    \"apellido\": \"Toasty\",\r\n    \"rol\": \"Personal\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api/v1/register",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update User By ID",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"direccion_de_mail\": \"test@test.com\",\r\n    \"password\": \"ASD123\",\r\n    \"nombre\": \"Testman\",\r\n    \"apellido\": \"Tester\",\r\n    \"rol\": \"Personal\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api/v1/users/id/1223334444555556666",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"users",
+								"id",
+								"1223334444555556666"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete User By ID",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/v1/users/id/595168233124183017",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"users",
+								"id",
+								"595168233124183017"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

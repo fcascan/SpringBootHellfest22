@@ -8,6 +8,7 @@ public class ResourceNotFoundException extends RuntimeException{
     //Clase Personalizada de ErrorException de ID no encontrado
     private static final String serialVersionID = "XXXX0000000000";
 
+    //Constructor:
     public ResourceNotFoundException(String mje){
         super(mje);
     }

@@ -1,12 +1,15 @@
 package com.hellfest22.springboot.services;
 
-import com.hellfest22.springboot.model.Tickets;
+import com.hellfest22.springboot.model.Ticket;
 
 import java.util.Optional;
 
 public interface ITicketsService {
-    Iterable<Tickets> getAll();
-    Optional<Tickets> getByID(String id);
-    Optional<Tickets> getByFullName(String name, String fname);
-    Tickets addTicket(Tickets t);
+    Iterable<Ticket> getAll();
+    Optional<Ticket> getById(String id);
+    Iterable<Ticket> getByFullName(String name, String fname);
+    Iterable<Ticket> getByEmail(String email);
+    Ticket addTicket(Ticket t);
+    Ticket updateTicket(Ticket t);
+    void deleteTicket(Ticket t);
 }

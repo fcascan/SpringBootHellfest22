@@ -1,9 +1,8 @@
 package com.hellfest22.springboot.services;
-import com.hellfest22.springboot.model.Login;
+import com.hellfest22.springboot.model.User;
 import com.hellfest22.springboot.repositories.LoginRepository;
 import org.springframework.stereotype.Service;
 
-import java.math.BigInteger;
 import java.util.Optional;
 
 @Service
@@ -17,16 +16,16 @@ public class LoginService implements ILoginService{
     }
 
     //Metodos:
-    @Override
-    public Iterable<Login> getAll(){
-        return this.repository.findAll();
-    }
+//    @Override
+//    public Iterable<User> getAll(){
+//        return this.repository.findAll();
+//    }
 
     @Override
-    public Login findLoginBy(String mail, String pass, String role){
-        Optional<Login> l = this.repository.findLoginBy(mail, pass, role);
+    public User findLoginBy(String mail, String pass, String role){
+        Optional<User> l = this.repository.findLoginBy(mail, pass, role);
         if(l.isPresent()) {
-            Login newL = new Login();
+            User newL = new User();
             newL.setId_user(l.get().getId_user());
             newL.setNombre(l.get().getNombre());
             newL.setApellido(l.get().getApellido());
